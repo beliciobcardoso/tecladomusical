@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 2rem;
+    background-color: #555;
+    text-align: center;
+}
+
+.teclado{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.oitava{
+    display: flex;
+    position: relative;
+}
+
+.branca{
+    width: 2rem;
+    height: 17rem;
+    background-color: #fff;
+    border: solid 1px ;
+}
+
+.preta{
+    width: 1rem;
+    height: 10rem;
+    background-color: #000;
+    border: solid 1px ;
+    position: absolute;
+}
+
+.selecionada{
+    background-color: #7382d6;
+}
+
+/*Propriedade perssonalizada*/
+[dos]{
+   left: 1.5rem; 
+}
+
+[res]{
+   left: 3.5rem; 
+}
+
+[fas]{
+   left: 7.5rem; 
+}
+
+[sols]{
+   left: 9.5rem; 
+}
+
+[las]{
+   left: 11.5rem; 
+}
